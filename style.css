@@ -1,78 +1,86 @@
 #contenedor {
-    text-align: center;
-    margin: 10px auto;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
-ul {
+#contenedor h1{
+    color: #FFFFFF;
+    text-shadow: #000000 1px 2px 2px;
+    text-align: center;
+    display: block;
+}
+
+ul.menu {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.desplegable {
+li {
+    background: #0000FF;
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover, .dropdown:hover {
+    background: #0DD672;
+}
+
+li.dropdown {
     display: inline-block;
 }
 
-.desplegable li {
-    float: RIGHT;
-}
-
-.desplegable li ul li {
-    float: none;
-}
-
-.desplegable li ul {
+.dropdown-content {
     display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
-.desplegable li:hover ul {
-    /*display: center;*/
-}
-
-.desplegable li a {
-    background: #0DD672;
-    color: #000000;
-    /*display:;*/
-    border: 3px solid #0DD672;
-    padding: 14px 14px;
-    margin: 10px;
-}
-
-.desplegable li a:hover {
-    background: #8CFFEE;
-}
-
-#menu ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    width: 200px;
-    font-family: Arial, sans-serif;
-    font-size: 18pt;
-}
-
-#menu ul li {
-    background-color: #FFFFFF;
-}
-
-#menu ul li a {
-    color: #DEDEDE;
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
     text-decoration: none;
-    text-transform: uppercase;
     display: block;
-    padding: 10px 10px 10px 20px;
+    text-align: left;
 }
 
-#menu ul li a:hover {
-    background: #0080FF;
-    border-left: 10px solid #333;
-    color: #FFF;
+.dropdown-content a:hover {
+    background-color: #f1f1f1
 }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
+.manual-usuario {
+    position: absolute;
+    bottom: 100px;
+    right: 250px;
+    text-shadow: #000000 1px 2px 2px;
+}
 
+.manual-usuario a {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
 
-
-
+.manual-usuario a span{
+    margin-left: 20px;
+}
