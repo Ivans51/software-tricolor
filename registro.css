@@ -1,0 +1,11 @@
+body{
+    /*background: #72c0fa;*/
+    background: url(fondo-registro.jpg), no-repeat, fixed, top;
+    background-size: cover;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+

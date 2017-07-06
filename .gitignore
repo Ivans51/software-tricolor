@@ -1,5 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-.gitignore
 .idea/
 Actividades realizadas/
 Antivirus USB.Bat
@@ -7,7 +6,7 @@ Antivirus USB.Bat
 "Carpeta sin t\303\255tulo/"
 Cuarentena/
 Cuentos/
-Document5.html
+iniciarsesion.html
 LibreOffice_4.4.3_Win_x86.msi
 PAGINA HTML.docx
 hpedit/
@@ -16,3 +15,4 @@ programainteractivo2.html
 videos de lenguaje/
 videos de matematica/
 ~$GINA HTML.docx
+!/iniciarsesion.html
