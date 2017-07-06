@@ -1,41 +1,60 @@
+<html>
 <head>
-    <title>Resultado de registro</title>
+    <title>Registro usuario</title>
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
     <meta name="generator" content="HAPedit 3.1">
+    <link rel="stylesheet" href="registro.css">
 </head>
-<body bgcolor="#57A1BA">
-<?php
-$conexion = mysqli_connect("localhost", "root")
-or die("problema en la conexion");
-mysqli_select_db("registro", $conexion)
-or die("problemas en la seleccion de la base de datos");
-if (($_REQUEST['acti'] == "regi") && ($_REQUEST['nom'] != "") && ($_REQUEST['ape'] != "") && ($_REQUEST['eda'] != "") && ($_REQUEST['usu'] != "") && ($_REQUEST['con'] != "") && ($_REQUEST['Sexo'] != "")) {
-    mysqli_query("insert into cliente(nombre,apellido,edad,sexo,
-values('$_REQUEST[nom]','$_REQUEST[ape]',' $_REQUEST[eda]','$_REQUEST[usu]','$_REQUEST[con]','$_REQUEST[Sexo]',
-')", $conexion)
-    or die("problemas en el select" . mysqli_error());
-    mysqli_close($conexion);
-    echo "El alumno fue ingresado correctamente con los  datos" . "<br />" . "<br />";
-    echo "Nombre :" . $_REQUEST['nom'] . "<br />";
-    echo "Apellido :" . $_REQUEST['ape'] . "<br />";
-    echo "Edad :" . $_REQUEST['eda'] . "<br />";
-    echo "Sexo :" . $_REQUEST['Sexo'] . "<br />";
-    echo "Usuario :" . $_REQUEST['usu'] . "<br />";
-    echo "Contraseï¿½a :" . $_REQUEST['con'] . "<br />";
-    $boton = htmlspecialchars($_SERVER['HTTP_REFERER']);
-    echo "<a href='$boton'>Atras</a>";
-} elseif (($_REQUEST['nom'] == "") && ($_REQUEST['ape'] != "") && ($_REQUEST['eda'] == "") && ($_REQUEST['usu'] == "") && ($_REQUEST['con'] == "") && ($_REQUEST['Sexo'] == "")) {
-    echo "Debe llenar los datos  para poder cargar la informacion" . "<br />" . "<br />";
-    $boton = htmlspecialchars($_SERVER['HTTP_REFERER']);
-    echo "<a href='$boton'>Volver al formulario</a>";
-}
-/*if (($_REQUEST
-}
-else{
-    echo "No existe el alumno con su nombre" . "<br />";
-}}*/
-?>
+<body>
+<div id="cont-registro">
+    <form action="registro-bd.php" medhot="post">
+        <table>
+            <caption>Registro de usurio</caption>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" name="nombre"></td>
+            </tr>
+            <tr>
+                <td>Apellido:</td>
+                <td><input type="text" name="apellido"></td>
+            <tr>
+                <td>Edad:</td>
+                <td><input type="text" name="edad"></td>
+            <tr>
+                <td>Sexo:</td>
+                <td><select name="Sexo">
+                    <option></option>
+                    <option value="1">Femenino</option>
+                    <option value="2">Masculino</option>
+                </select></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>Usuario:
+                <td><input type="text" name="usuario">
+            </tr>
+            <tr>
+                <td>Contraseña:
+                <td><input type="text" name="password">
+            </td>
+        </table>
+        <table class="end-table">
+            <tr>
+                <td>Opciones:
+                    <select name="opciones">
+                        <option></option>
+                        <option value="regi">Registrar</option>
+                    </select>
+                </td>
+                <td><input type="submit" value="Cargar">
+                    <input type="reset" value="Limpiar"></td>
+            </tr>
+        </table>
+    </form>
+</div>
 </body>
 </html>
-
+</body>
+</html>
 

@@ -1,11 +1,92 @@
-body{
+body {
     /*background: #72c0fa;*/
     background: url(fondo-registro.jpg), no-repeat, fixed, top;
     background-size: cover;
+    background-position-y: -100px;
 }
 
-ul {
+form {
+    margin: 0;
+}
+
+div#cont-sesion, div#cont-registro {
+    box-shadow: #CCC 1px 0px 2px 2px;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    position: absolute;
+    margin: 0 auto;
+    width: 500px;
+}
+
+#cont-sesion h1 {
+    color: #597ffa;
+    text-shadow: #b8b8b8 1px 2px 2px;
+    text-align: center;
+    display: block;
+    font-size: 36px;
+}
+
+/* Tablas */
+#cont-sesion table, #cont-registro table {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#cont-registro table {
+    border: 1px #CCC solid;
+    margin-top: 4px;
+    padding: 10px;
+}
+
+#cont-registro table td:first-child, #cont-sesion table td:first-child {
+    width: 30%;
+}
+
+#cont-registro table.end-table td:first-child {
+    width: auto;
+}
+
+/* Listas */
+#cont-sesion ul {
     padding: 0;
     list-style-type: none;
+    width: 100%;
+    overflow: hidden;
 }
 
+#cont-sesion ul li {
+    float: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#cont-sesion ul a {
+    color: #0661d0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Formulario */
+#cont-sesion input {
+    margin: 10px 0 10px 10px;
+}
+
+#cont-sesion input[type="text"],
+#cont-sesion input[type="password"],
+#cont-registro input[type="text"] {
+    width: 100%;
+}
+
+#cont-sesion input[type="submit"], #cont-registro input[type="submit"],
+#cont-sesion input[type="reset"], #cont-registro input[type="reset"] {
+    background: #0661d0;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
