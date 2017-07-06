@@ -1,13 +1,15 @@
-<html>
+<!doctype html>
+<html >
 <head>
+    <meta charset="UTF-8">
     <title>Registro usuario</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
     <meta name="generator" content="HAPedit 3.1">
     <link rel="stylesheet" href="registro.css">
 </head>
 <body>
 <div id="cont-registro">
-    <form action="registro-bd.php" medhot="post">
+
+    <form action="bd-registro.php" method="post">
         <table>
             <caption>Registro de usurio</caption>
             <tr>
@@ -35,7 +37,7 @@
                 <td><input type="text" name="usuario">
             </tr>
             <tr>
-                <td>Contraseña:
+                <td>Contrase&ntilde;a:
                 <td><input type="text" name="password">
             </td>
         </table>
@@ -44,10 +46,10 @@
                 <td>Opciones:
                     <select name="opciones">
                         <option></option>
-                        <option value="regi">Registrar</option>
+                        <option value="Registrar">Registrar</option>
                     </select>
                 </td>
-                <td><input type="submit" value="Cargar">
+                <td><input type="submit" value="cargar">
                     <input type="reset" value="Limpiar"></td>
             </tr>
         </table>
