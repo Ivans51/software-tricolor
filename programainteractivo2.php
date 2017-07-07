@@ -1,5 +1,10 @@
 <!doctype html>
-<html >
+
+<?php
+include_once "bd-select.php";
+?>
+
+<html>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" type="text/css" media="all">
