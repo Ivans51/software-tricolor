@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Registro usuario</title>
     <meta name="generator" content="HAPedit 3.1">
-    <link rel="stylesheet" href="registro.css">
+    <link rel="stylesheet" href="css-registro.css">
 </head>
 <body>
 <div id="cont-registro">

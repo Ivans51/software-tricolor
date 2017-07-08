@@ -1,6 +1,6 @@
 body {
     background: url(presentacion2.jpg), no-repeat, fixed, top;
-    /*background-size: cover;*/
+    background-size: cover;
 }
 
 #contenedor {
@@ -16,6 +16,7 @@ body {
 }
 
 ul.menu {
+    background: #0000FF;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
@@ -70,27 +71,41 @@ li.dropdown {
     display: block;
 }
 
-.manual-usuario {
-    position: absolute;
-    bottom: 100px;
-    right: 250px;
-    text-shadow: #000000 1px 2px 2px;
+main {
+    /*background: #FFFFFF;*/
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    margin: 0 auto;
+    width: 80%;
 }
 
-.manual-usuario a {
-    display: flex;
-    align-items: center;
+a.salir-boton {
+    align-self: flex-start;
+    background: #03b326;
     color: #FFFFFF;
+    display: block;
+    font-size: 20px;
+    padding: 5px 20px;
+    text-align: right;
+    text-decoration: none;
+    width: 100%;
+}
+
+a.salir-boton:hover {
+    background: #0661d0;
+}
+
+main a:last-child {
+    margin-bottom: 5px;
+    align-self: flex-end;
+    justify-items: right;
+    color: #3f3f3f;
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
 }
 
-a.salir-boton{
-    margin-top: 0px;
-    color: #CCCCCC;
-}
-
-.manual-usuario a span {
-    margin-left: 20px;
+main a:last-child span, main a:last-child{
+    margin: 0 0 20px 20px;
 }

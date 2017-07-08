@@ -7,7 +7,7 @@ include_once "bd-select.php";
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css-style.css" type="text/css" media="all">
     <title>Software Tricolor</title>
 </head>
 <body>

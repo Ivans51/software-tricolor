@@ -1,11 +1,11 @@
       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css-style.css" type="text/css" media="all">
     <title>CSS3 slideout menu #5</title>
 </head>
 <body>
- <body background="../../../../presentación2.jpg" alt="" title="presentaci&oacute;n2" width="960" height="720" border="0" />
+ <body background="../../../../presentaciï¿½n2.jpg" alt="" title="presentaci&oacute;n2" width="960" height="720" border="0" />
  </div>
 
    <h1 align=center>
@@ -24,42 +24,42 @@
 <ul class="desplegable">
             <li><a>CUENTOS</a>
 <ul>
-<li><a href=”#”>submenu1</a></li>
-<li><a href=”#”>submenu1</a></li>
-<li><a href=”#”>submenu1</a></li>
-<li><a href=”#”>submenu1</a></li>
-<li><a href=”#”>submenu1</a></li>
-<li><a href=”#”>submenu1</a></li>
-<li><a href=”#”>submenu1</a></li>
-<li><a href=”#”>submenu1</a></li>
-<li><a href=”#”>submenu1</a></li>
+<li><a href=ï¿½#ï¿½>submenu1</a></li>
+<li><a href=ï¿½#ï¿½>submenu1</a></li>
+<li><a href=ï¿½#ï¿½>submenu1</a></li>
+<li><a href=ï¿½#ï¿½>submenu1</a></li>
+<li><a href=ï¿½#ï¿½>submenu1</a></li>
+<li><a href=ï¿½#ï¿½>submenu1</a></li>
+<li><a href=ï¿½#ï¿½>submenu1</a></li>
+<li><a href=ï¿½#ï¿½>submenu1</a></li>
+<li><a href=ï¿½#ï¿½>submenu1</a></li>
 
 </ul>
       <li><a>VIDEOS SOBRE MATEMATICA</a>
 <ul>
-<li><a href=”#”>submenu2</a></li>
-<li><a href=”#”>submenu2</a></li>
-<li><a href=”#”>submenu2</a></li>
+<li><a href=ï¿½#ï¿½>submenu2</a></li>
+<li><a href=ï¿½#ï¿½>submenu2</a></li>
+<li><a href=ï¿½#ï¿½>submenu2</a></li>
 </ul>
 </li>
 
    <li><a>VIDEOS SOBRE LENGUAJE</a>
 <ul>
-<li><a href=”#”>submenu3</a></li>
-<li><a href=”#”>submenu3</a></li>
-<li><a href=”#”>submenu3</a></li>
- <li><a href=”#”>submenu3</a></li>
+<li><a href=ï¿½#ï¿½>submenu3</a></li>
+<li><a href=ï¿½#ï¿½>submenu3</a></li>
+<li><a href=ï¿½#ï¿½>submenu3</a></li>
+ <li><a href=ï¿½#ï¿½>submenu3</a></li>
 </ul>
 </li>
   <li><a>ACTIVIDADES</a>
    <ul>
-<li><a href=”#”>submenu3</a></li>
+<li><a href=ï¿½#ï¿½>submenu3</a></li>
 
-<li><a href=”#”>submenu3</a></li>
+<li><a href=ï¿½#ï¿½>submenu3</a></li>
 
-<li><a href=”#”>submenu3</a></li>
+<li><a href=ï¿½#ï¿½>submenu3</a></li>
 
- <li><a href=”#”>submenu3</a></li>
+ <li><a href=ï¿½#ï¿½>submenu3</a></li>
 
 </ul>
 </li>
