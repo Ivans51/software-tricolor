@@ -4,8 +4,8 @@ body {
 }
 
 #contenedor {
-    max-width: 1024px;
     margin: 0 auto;
+    width: 80%;
 }
 
 #contenedor h1 {
@@ -77,7 +77,7 @@ main {
     flex-wrap: wrap;
     height: 500px;
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
 }
 
 a.salir-boton {
@@ -104,8 +104,21 @@ main a:last-child {
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
+    width: 100%;
 }
 
 main a:last-child span, main a:last-child{
     margin: 0 0 20px 20px;
+}
+table.tabla-auditoria {
+    border-spacing: 5px;
+    width: 100%;
+}
+table.tabla-auditoria, .tabla-auditoria th, .tabla-auditoria td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tabla-auditoria th, .tabla-auditoria td {
+    padding: 5px;
+    text-align: center;
 }
