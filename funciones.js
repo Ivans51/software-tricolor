@@ -60,6 +60,10 @@ function show() {
 }
 function hide() {
     if (document.getElementById('benefits').style.display == 'block') {
+        var botonCargar = document.getElementById("cargar");
+        botonCargar.disabled = false;
+        botonCargar.style.cursor = "pointer";
+        botonCargar.style.background = "#0661d0";
         document.getElementById('benefits').style.display = 'none';
     }
     return false;

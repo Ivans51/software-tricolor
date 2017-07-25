@@ -9,7 +9,6 @@
 </head>
 <body>
 <div id="cont-registro">
-
     <form action="bd-registro.php" method="post">
         <table>
             <caption>Registro de usurio</caption>
@@ -52,13 +51,6 @@
             </tr>
         </table>
         <table class="end-table">
-            <tr id="benefits" style="display:none;">
-                <td>Clave: </td>
-                <td>
-                    <input type="password" name="clave" id="clave" required>
-                    <button id="validar" onclick="validarClave()">Validar</button>
-                </td>
-            </tr>
             <tr>
                 <td>Opciones:
                     <select name="opciones" required>
@@ -71,6 +63,13 @@
             </tr>
         </table>
     </form>
+    <div id="benefits" style="display:none;">
+        <td>Clave:</td>
+        <td>
+            <input type="password" name="clave" id="clave" required>
+            <button id="validar" onclick="validarClave()">Validar</button>
+        </td>
+    </div>
 </div>
 </body>
 </html>
